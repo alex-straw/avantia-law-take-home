@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "avantia-law-take-home"
+name = "fast-api-docker-practice"
 version = "0.1.0"
 description = "take home"
 authors = ["Alex Straw"]
@@ -12,6 +12,7 @@ python = "^3.9"
 fastapi = "^0.115.12"
 uvicorn = "^0.34.2"
 requests = "^2.32.3"
+rapidfuzz = "^3.13.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.5"
